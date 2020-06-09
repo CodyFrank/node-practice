@@ -18,3 +18,10 @@ sayName.sayName()
 // and we now have access too
 sayName.sayAddress()
 
+// can view dir name and file name with following lines
+console.log(__filename)
+console.log(__dirname)
+
+// or more visable concatination
+console.log(`file name ${__filename}`)
+console.log(`directory name ${__dirname}`)
