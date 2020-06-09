@@ -9,4 +9,5 @@
 const sayName = require('./sayName')
 
 // because it is exported in sayName module and imported in this module I can run code from a different module.
-sayName()
+console.log(sayName)
+
