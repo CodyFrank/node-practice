@@ -1,4 +1,6 @@
 const http = require("http")
+const path = require('path')
+const fs = require('fs')
 
 // creates a server to handle http requests and respones
 
